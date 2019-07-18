@@ -5,7 +5,7 @@
 {-# LANGUAGE UndecidableInstances #-}
 
 -- |
-module Type.Funspection.ArityOf (
+module Type.Funspection.Undecidable (
     ArityOf,
 ) where
 

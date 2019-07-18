@@ -13,7 +13,7 @@ name:                funspection
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
+version:             1.0.0.0
 
 -- A short (one-line) description of the package.
 synopsis:            Type-level function utilities
@@ -51,7 +51,7 @@ extra-source-files:  README.md
 
 library
   -- Modules exported by the library.
-  exposed-modules:     Type.Funspection, Type.Funspection.Core, Type.Funspection.ArityOf
+  exposed-modules:     Type.Funspection, Type.Funspection.Decidable, Type.Funspection.Undecidable
 
   -- Modules included in this library but not exported.
   -- other-modules:

@@ -1,11 +1,11 @@
 -- |
 module Type.Funspection (
-    module Type.Funspection.ArityOf,
-    module Type.Funspection.Core,
+    module Type.Funspection.Decidable,
+    module Type.Funspection.Undecidable,
 ) where
 
 
-import Type.Funspection.ArityOf
-import Type.Funspection.Core
+import Type.Funspection.Decidable
+import Type.Funspection.Undecidable
 
 

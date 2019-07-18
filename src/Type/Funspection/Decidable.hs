@@ -10,7 +10,7 @@
 {-# LANGUAGE TypeOperators #-}
 
 -- |
-module Type.Funspection.Core (
+module Type.Funspection.Decidable (
     EnableIf,
 
     Return(..),
